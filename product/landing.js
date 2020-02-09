@@ -13,8 +13,18 @@ function slideshow(num){
     var addTag = document.getElementById(nextSlide);
     addTag.classList.add("active");
 
+    return nextSlide;
 }
 
+var counter = 1;
+setInterval(function(){
+    slideshow(counter);
+    counter ++;
+    if(counter == 4){
+        counter = 1;
+    }
+    console.log(counter);
+    }, 3000);
 
-setInterval(slideshow(2), 3000);
+
 

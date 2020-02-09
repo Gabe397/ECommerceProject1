@@ -2,8 +2,11 @@
     display: block;
 }
 
+.container{
+    height:auto;
+}
+
 img{
     display:none;
 }
-
 
