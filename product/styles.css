@@ -10,3 +10,23 @@ img{
     display:none;
 }
 
+.images{
+    width: 100%;
+    object-fit: cover;
+    height:250px;
+}
+
+.landscape{
+    height: 250px;
+    width: 930px;
+}
+
+.images-fluid{
+    object-fit: fill;
+}
+
+html, body {
+    min-height: 100%;
+    margin: 0;
+    padding: 0;
+}

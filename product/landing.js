@@ -19,7 +19,6 @@ function slideshow(num){
     return nextSlide;
 }
 
-
 slideshow(1);
 var counter = 1;
 setInterval(function(){
