@@ -1,3 +1,6 @@
+var tag = document.getElementById(1);
+tag.classList.remove("active");
+
 function slideshow(num){
 
     let currentSlide = num;
@@ -16,6 +19,8 @@ function slideshow(num){
     return nextSlide;
 }
 
+
+slideshow(1);
 var counter = 1;
 setInterval(function(){
     slideshow(counter);
