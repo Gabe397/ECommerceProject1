@@ -1,6 +1,14 @@
 var tag = document.getElementById(1);
 tag.classList.remove("active");
 
+
+function checkPass(num){
+    if(num==4){
+        return true
+    }
+
+}
+
 function slideshow(num){
 
     let currentSlide = num;
@@ -9,7 +17,7 @@ function slideshow(num){
 
     let nextSlide = num + 1;
 
-    if(nextSlide == 4) {
+    if(checkPass(nextSlide)) {
         nextSlide = 1;
     }
 
@@ -24,11 +32,11 @@ var counter = 1;
 setInterval(function(){
     slideshow(counter);
     counter ++;
-    if(counter == 4){
+    if(checkPass(counter)){
         counter = 1;
     }
     console.log(counter);
-    }, 3000);
+    }, 2000);
 
 
 
