@@ -25,10 +25,3 @@ img{
     object-fit: fill;
 }
 
-.product-container{
-    width: 1024px;
-    margin: auto;
-    display: flex;
-    min-height: 100%;
-    background-color: white;
-}
