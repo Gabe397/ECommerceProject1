@@ -79,6 +79,10 @@ img{
     text-align: right;
 }
 
+.footerTextRight{
+    margin:0px;
+}
+
 
 .active {
     display: block;
