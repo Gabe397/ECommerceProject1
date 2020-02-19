@@ -16,12 +16,4 @@ img{
     height:250px;
 }
 
-.landscape{
-    height: 250px;
-    width: 930px;
-}
-
-.images-fluid{
-    object-fit: fill;
-}
 
