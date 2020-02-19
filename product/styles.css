@@ -15,7 +15,7 @@ img{
 .imgSizes{
     background-size: cover;
     width: 1080px;
-    height: 400px;
+    height: 200px;
     display: none;
 }
 .tiledBackground1 {
@@ -28,6 +28,30 @@ img{
 
 .tiledBackground3 {
     background-image: url(images/threeMusicians.jpg);
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1200px) {
+    .imgSizes {
+        width: 900px;
+        height:200px;
+        display: none;
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 992px) {
+    .imgSizes {
+        width: 660px;
+        height:200px;
+        display: none;
+    }
+}
+
+@media only screen and (min-width: 500px) and (max-width: 768px) {
+    .imgSizes {
+        width: 480px;
+        height:200px;
+        display: none;
+    }
 }
 
 .active {
