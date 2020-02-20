@@ -31,6 +31,7 @@ img{
         height:300px;
         display: none;
     }
+
 }
 
 @media only screen and (min-width: 768px) and (max-width: 992px) {
@@ -47,6 +48,7 @@ img{
         height:300px;
         display: none;
     }
+
 }
 
 @media only screen and (min-width: 550px) and (max-width: 768px) {
@@ -67,11 +69,11 @@ img{
 
 .footer{
     background: black;
-    height: auto;
     color: white;
+    height:auto;
 }
 
-.middle{
+.middleFooter{
     text-align: center;
 }
 
@@ -80,7 +82,7 @@ img{
 }
 
 .footerTextRight{
-    margin:0px;
+    margin:0;
 }
 
 
