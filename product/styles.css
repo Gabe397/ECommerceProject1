@@ -18,11 +18,11 @@ img{
 }
 
 .tiledBackground2 {
-    background-image: url(images/randomPaint.jpg);
+    background-image: url(images/adam.jpg);
 }
 
 .tiledBackground3 {
-    background-image: url(images/threeMusicians.jpg);
+    background-image: url(images/starrynights.jpg);
 }
 
 .footer{
@@ -41,6 +41,48 @@ img{
 
 .footerTextRight{
     margin:0;
+}
+
+#footer{
+    background: black;
+    color: white;
+}
+
+.navigation {
+    flex: 0 0 150px;
+    min-height: 100%;
+    background-color: #ff0000b5;
+    display: block;
+    padding: 15px;
+    text-align: center;
+    color: white;
+    font-family: sans-serif;
+    text-decoration: none;
+}
+
+.app-container {
+    width: 1024px;
+    margin: auto;
+    display: flex;
+    min-height: 100%;
+    background-color: white;
+}
+
+.content-container {
+    flex: 1 1 auto;
+    width: 100%;
+    margin: 10px;
+    padding: 5px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.content-container .card {
+    height: 195px;
+    flex: 0 0 250px;
+    background-color: #bfbfbf;
+    border: 3px solid #333;
+    margin: 5px;
 }
 
 @media only screen and (min-width: 992px) and (max-width: 1200px) {
@@ -69,9 +111,9 @@ img{
 
 }
 
-@media only screen and (min-width: 411px) and (max-width: 550px) {
+@media only screen and (min-width: 411px) and (max-width: 549px) {
     .imgSizes {
-        width: 480px;
+        width: 440px;
         height:300px;
         display: none;
     }
@@ -83,13 +125,57 @@ img{
     }
 }
 
-@media only screen and (max-width: 411px){
+@media only screen and (max-width: 420px){
     .imgSizes {
         width: 334px;
         height:300px;
         display: none;
     }
 }
+
+@media only screen and (max-width: 1199px) {
+    .app-container {
+        flex-direction: column;
+        width: 900px;
+    }
+
+    .navigation {
+        min-height: auto;
+        flex: 0 0 35px;
+    }
+
+    .navigation a {
+        display: inline-block;
+    }
+}
+
+@media only screen and (min-width: 750px) and (max-width: 1000px) {
+    .app-container {
+        width: 720px;
+    }
+
+    .content-container .card {
+        flex-basis: 330px;
+        height: 330px;
+    }
+}
+
+@media only screen and (max-width: 749px) {
+    .app-container {
+        margin: 0 15px;
+        width: calc(100% - 30px);
+    }
+
+    .content-container {
+        width: calc(100% - 50px);
+    }
+
+    .content-container .card {
+        height: 50px;
+        flex-basis: 100%;
+    }
+}
+
 
 
 

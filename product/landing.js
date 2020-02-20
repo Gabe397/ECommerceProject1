@@ -35,7 +35,6 @@ setInterval(function(){
     if(checkPass(counter)){
         counter = 1;
     }
-    console.log(counter);
     }, 2000);
 
 
