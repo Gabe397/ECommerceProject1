@@ -25,6 +25,24 @@ img{
     background-image: url(images/threeMusicians.jpg);
 }
 
+.footer{
+    background: black;
+    color: white;
+    height:auto;
+}
+
+.middleFooter{
+    text-align: center;
+}
+
+.rightFooter{
+    text-align: right;
+}
+
+.footerTextRight{
+    margin:0;
+}
+
 @media only screen and (min-width: 992px) and (max-width: 1200px) {
     .imgSizes {
         width: 900px;
@@ -42,7 +60,7 @@ img{
     }
 }
 
-@media only screen and (min-width: 550px) and (max-width: 768px) {
+@media only screen and (min-width: 550px) and (max-width: 767px) {
     .imgSizes {
         width: 480px;
         height:300px;
@@ -51,11 +69,17 @@ img{
 
 }
 
-@media only screen and (min-width: 550px) and (max-width: 768px) {
+@media only screen and (min-width: 411px) and (max-width: 550px) {
     .imgSizes {
         width: 480px;
         height:300px;
         display: none;
+    }
+}
+
+@media only screen and (max-width: 575px){
+    .rightFooter{
+        text-align: left;
     }
 }
 
@@ -67,23 +91,7 @@ img{
     }
 }
 
-.footer{
-    background: black;
-    color: white;
-    height:auto;
-}
 
-.middleFooter{
-    text-align: center;
-}
-
-.right{
-    text-align: right;
-}
-
-.footerTextRight{
-    margin:0;
-}
 
 
 .active {
