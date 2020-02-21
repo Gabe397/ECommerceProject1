@@ -2,31 +2,11 @@
     height:auto;
 }
 
-img{
-    display:none;
+body{
+    background-color: #eed0c3;
 }
-
-.imgSizes{
-    background-size: cover;
-    width: 1080px;
-    height: 250px;
-    display: none;
-}
-
-.tiledBackground1 {
-    background-image: url(images/number1.jpg);
-}
-
-.tiledBackground2 {
-    background-image: url(images/adam.jpg);
-}
-
-.tiledBackground3 {
-    background-image: url(images/starrynights.jpg);
-}
-
 .footer{
-    background: black;
+    background: #7a2020;
     color: white;
     height:auto;
 }
@@ -44,14 +24,14 @@ img{
 }
 
 #footer{
-    background: black;
+    background: #7a2020;
     color: white;
 }
 
 .navigation {
     flex: 0 0 150px;
     min-height: 100%;
-    background-color: #ff0000b5;
+    background-color: rgba(255, 118, 101, 0.71);
     display: block;
     padding: 15px;
     text-align: center;
@@ -85,8 +65,70 @@ img{
     margin: 13px;
 }
 
+/*<-----------------------------------------Landing Page Images----------------------------------------> */
+img{
+    display:none;
+}
+
+.imgSizes{
+    background-size: cover;
+    width: 1080px;
+    height: 250px;
+    display: none;
+}
+
+.tiledBackground1 {
+    background-image: url(images/number1.jpg);
+}
+
+.tiledBackground2 {
+    background-image: url(images/adam.jpg);
+}
+
+.tiledBackground3 {
+    background-image: url(images/starrynights.jpg);
+}
+
+/*<-----------------------------------------Card Images and Description----------------------------------------> */
 #card1{
     background-image: url("images/starrynights.jpg");
+    background-size: cover;
+}
+
+#card2{
+    background-image: url("images/adam.jpg");
+    background-size: cover;
+}
+#card3{
+     background-image: url("images/number1.jpg");
+     background-size: cover;
+}
+
+#card4{
+    background-image: url("images/cafe.jpg");
+    background-size: cover;
+}
+#card5{
+    background-image: url("images/thelastjudgement.jpg");
+    background-size: cover;
+}
+#card6{
+    background-image: url("images/mural.jpg");
+    background-size: cover;
+}
+
+#card7{
+    background-image: url("images/bedroom.jpg");
+    background-size: cover;
+}
+
+#card8{
+    background-image: url("images/swan.jpg");
+    background-size: cover;
+}
+
+#card9{
+    background-image: url("images/number30.jpg");
     background-size: cover;
 }
 
@@ -94,6 +136,9 @@ img{
     margin-top: 70%;
     background-color: #b27f6c;
 }
+
+
+/* <--------------------------------------------Media Query Starts--------------------------------------------->*/
 
 @media only screen and (min-width: 992px) and (max-width: 1200px) {
     .imgSizes {
