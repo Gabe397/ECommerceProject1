@@ -5,6 +5,15 @@
 body{
     background-color: #eed0c3;
 }
+
+.navColor{
+    background-color: #dfaf9c;
+    color: white;
+}
+
+.navFont{
+    color: white;
+}
 .footer{
     background: #7a2020;
     color: white;
@@ -94,7 +103,6 @@ img{
     background-image: url("images/starrynights.jpg");
     background-size: cover;
 }
-
 #card2{
     background-image: url("images/adam.jpg");
     background-size: cover;
@@ -103,7 +111,6 @@ img{
      background-image: url("images/number1.jpg");
      background-size: cover;
 }
-
 #card4{
     background-image: url("images/cafe.jpg");
     background-size: cover;
@@ -116,17 +123,14 @@ img{
     background-image: url("images/mural.jpg");
     background-size: cover;
 }
-
 #card7{
     background-image: url("images/bedroom.jpg");
     background-size: cover;
 }
-
 #card8{
     background-image: url("images/swan.jpg");
     background-size: cover;
 }
-
 #card9{
     background-image: url("images/number30.jpg");
     background-size: cover;
