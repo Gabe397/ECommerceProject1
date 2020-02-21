@@ -78,11 +78,21 @@ img{
 }
 
 .content-container .card {
-    height: 195px;
+    height: 200px;
     flex: 0 0 250px;
     background-color: #bfbfbf;
     border: 3px solid #333;
-    margin: 5px;
+    margin: 13px;
+}
+
+#card1{
+    background-image: url("images/starrynights.jpg");
+    background-size: cover;
+}
+
+.description{
+    margin-top: 70%;
+    background-color: #b27f6c;
 }
 
 @media only screen and (min-width: 992px) and (max-width: 1200px) {
@@ -138,7 +148,6 @@ img{
         flex-direction: column;
         width: 900px;
     }
-
     .navigation {
         min-height: auto;
         flex: 0 0 35px;
@@ -157,7 +166,14 @@ img{
     .content-container .card {
         flex-basis: 330px;
         height: 330px;
+        margin: 5px;
     }
+
+    .description{
+        margin-top: 93%;
+    }
+
+
 }
 
 @media only screen and (max-width: 749px) {
@@ -173,6 +189,11 @@ img{
     .content-container .card {
         height: 50px;
         flex-basis: 100%;
+        margin: 5px;
+    }
+
+    .description{
+        margin-top: 0;
     }
 }
 
